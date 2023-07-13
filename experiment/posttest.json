@@ -2,35 +2,26 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A set of paths are said to be linearly independent if",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " Each of them is distinct  ",
+        "b": " No paths have a common node",
+        "c": " No two paths have a common node  ",
+        "d": "All the paths are pairwise distinct"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
+   
     {
-      "question": "This is a Sample Question 2?",
+      "question": "According to McCabe's Cyclomatic complexity, V(G) = E - N + 2. Here, N is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "No. of statements in the program ",
+        "b": "No. of unique operators used ",
+        "c": "No. of nodes in the CFG",
+        "d": " No. of edges in the CFG  "
+       
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
