@@ -39,17 +39,17 @@ function calex1(){
     }
 
     else if((inpt1 != 7)){
-       alert("Incorrect. No of nodes should be including the ENTRY and EXIT nodes");
+       alert("Incorrect value. No of nodes should be including the ENTRY and EXIT nodes");
        document.getElementById("c1").style.backgroundColor="#FFAB99 ";
     }
 
     else if((inpt2 != 7)){
-        alert("Incorrect. Check no of edges");
+        alert("Incorrect value. Check no of edges");
         document.getElementById("c2").style.backgroundColor="#FFAB99 ";
      }
 
      else if((inpt3 != 2)){
-        alert("Incorrect. Check Cyclomatic Complexity");
+        alert("Incorrect value. Check Cyclomatic Complexity");
         document.getElementById("c3").style.backgroundColor="#FFAB99 ";
      }
 

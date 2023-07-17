@@ -44,12 +44,12 @@ function addbtnt31(){
     }
 
     else if((inpt31 != 15)){
-       alert("Incorrect. No of nodes should be including the ENTRY and EXIT node");
+       alert("Incorrect value. No of nodes should be including the ENTRY and EXIT node");
        document.getElementById("c31").style.backgroundColor="#FFAB99 ";
     }
 
     else if((inpt32 != 19)){
-        alert("Incorrect. Check no of edges");
+        alert("Incorrect value. Check no of edges");
         document.getElementById("c32").style.backgroundColor="#FFAB99 ";
      }
 
@@ -59,7 +59,7 @@ function addbtnt31(){
 
      }
      else if((selcatval != 1)){
-        alert("Incorrect. Check module category");
+        alert("Incorrect value. Check module category");
         document.getElementById("selcat").style.backgroundColor="#FFAB99 ";
      }
 
