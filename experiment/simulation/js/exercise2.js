@@ -40,17 +40,17 @@ else if ((inpt21 == 10) && (inpt22 == 11) && (inpt23 == 3)) {
   }
 
   else if ((inpt21 != 10)) {
-    alert("Incorrect. No of nodes should be including the ENTRY and EXIT node");
+    alert("Incorrect value. Make sure No of nodes is counted including the ENTRY and EXIT node");
     document.getElementById("c21").style.backgroundColor="#FFAB99 ";
   }
 
   else if ((inpt22 != 11)) {
-    alert("Incorrect. Check no of edges");
+    alert("Incorrect value. Check no of edges");
     document.getElementById("c22").style.backgroundColor="#FFAB99 ";
   }
 
   else if ((inpt23 != 3)) {
-    alert("Incorrect. Check Cyclomatic Complexity");
+    alert("Incorrect value. Check Cyclomatic Complexity");
     document.getElementById("c23").style.backgroundColor="#FFAB99 ";
   }
 

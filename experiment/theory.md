@@ -19,7 +19,7 @@ A control flow graph (CFG) is a directed graph where the nodes represent differe
 A program, however, doesn't always consist of only sequential statements. There could be branching and looping involved in it as well. Figure 2 shows how a CFG would look like if there are sequential, selection and iteration kind of statements in order.
 
 <div align="center">
-<img src="images/t1_2_cfg_types.png" width="30%">
+<img src="images/t1_2_cfg_types.PNG" width="30%">
 <p> Figure-02: CFG for different types of statements</p>
 </div>
 
